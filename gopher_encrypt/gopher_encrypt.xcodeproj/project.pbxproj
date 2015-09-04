@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BC7F4101B99EF15006EF461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7F40F1B99EF15006EF461 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BC7F40A1B99EF15006EF461 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BC7F40C1B99EF15006EF461 /* gopher_encrypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gopher_encrypt; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC7F40F1B99EF15006EF461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BC7F42A1B99EF57006EF461 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		7BC7F42B1B99EF57006EF461 /* crypto_aead_chacha20poly1305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_aead_chacha20poly1305.h; sourceTree = "<group>"; };
+		7BC7F42C1B99EF57006EF461 /* crypto_auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_auth.h; sourceTree = "<group>"; };
+		7BC7F42D1B99EF57006EF461 /* crypto_auth_hmacsha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_auth_hmacsha256.h; sourceTree = "<group>"; };
+		7BC7F42E1B99EF57006EF461 /* crypto_auth_hmacsha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_auth_hmacsha512.h; sourceTree = "<group>"; };
+		7BC7F42F1B99EF57006EF461 /* crypto_auth_hmacsha512256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_auth_hmacsha512256.h; sourceTree = "<group>"; };
+		7BC7F4301B99EF57006EF461 /* crypto_box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_box.h; sourceTree = "<group>"; };
+		7BC7F4311B99EF57006EF461 /* crypto_box_curve25519xsalsa20poly1305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_box_curve25519xsalsa20poly1305.h; sourceTree = "<group>"; };
+		7BC7F4321B99EF57006EF461 /* crypto_core_hsalsa20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_core_hsalsa20.h; sourceTree = "<group>"; };
+		7BC7F4331B99EF57006EF461 /* crypto_core_salsa20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_core_salsa20.h; sourceTree = "<group>"; };
+		7BC7F4341B99EF57006EF461 /* crypto_core_salsa2012.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_core_salsa2012.h; sourceTree = "<group>"; };
+		7BC7F4351B99EF57006EF461 /* crypto_core_salsa208.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_core_salsa208.h; sourceTree = "<group>"; };
+		7BC7F4361B99EF57006EF461 /* crypto_generichash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_generichash.h; sourceTree = "<group>"; };
+		7BC7F4371B99EF57006EF461 /* crypto_generichash_blake2b.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_generichash_blake2b.h; sourceTree = "<group>"; };
+		7BC7F4381B99EF57006EF461 /* crypto_hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_hash.h; sourceTree = "<group>"; };
+		7BC7F4391B99EF57006EF461 /* crypto_hash_sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_hash_sha256.h; sourceTree = "<group>"; };
+		7BC7F43A1B99EF57006EF461 /* crypto_hash_sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_hash_sha512.h; sourceTree = "<group>"; };
+		7BC7F43B1B99EF57006EF461 /* crypto_int32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_int32.h; sourceTree = "<group>"; };
+		7BC7F43C1B99EF57006EF461 /* crypto_int64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_int64.h; sourceTree = "<group>"; };
+		7BC7F43D1B99EF57006EF461 /* crypto_onetimeauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_onetimeauth.h; sourceTree = "<group>"; };
+		7BC7F43E1B99EF57006EF461 /* crypto_onetimeauth_poly1305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_onetimeauth_poly1305.h; sourceTree = "<group>"; };
+		7BC7F43F1B99EF57006EF461 /* crypto_pwhash_scryptsalsa208sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_pwhash_scryptsalsa208sha256.h; sourceTree = "<group>"; };
+		7BC7F4401B99EF57006EF461 /* crypto_scalarmult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_scalarmult.h; sourceTree = "<group>"; };
+		7BC7F4411B99EF57006EF461 /* crypto_scalarmult_curve25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_scalarmult_curve25519.h; sourceTree = "<group>"; };
+		7BC7F4421B99EF57006EF461 /* crypto_secretbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_secretbox.h; sourceTree = "<group>"; };
+		7BC7F4431B99EF57006EF461 /* crypto_secretbox_xsalsa20poly1305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_secretbox_xsalsa20poly1305.h; sourceTree = "<group>"; };
+		7BC7F4441B99EF57006EF461 /* crypto_shorthash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_shorthash.h; sourceTree = "<group>"; };
+		7BC7F4451B99EF57006EF461 /* crypto_shorthash_siphash24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_shorthash_siphash24.h; sourceTree = "<group>"; };
+		7BC7F4461B99EF57006EF461 /* crypto_sign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_sign.h; sourceTree = "<group>"; };
+		7BC7F4471B99EF57006EF461 /* crypto_sign_ed25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_sign_ed25519.h; sourceTree = "<group>"; };
+		7BC7F4481B99EF57006EF461 /* crypto_sign_edwards25519sha512batch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_sign_edwards25519sha512batch.h; sourceTree = "<group>"; };
+		7BC7F4491B99EF57006EF461 /* crypto_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream.h; sourceTree = "<group>"; };
+		7BC7F44A1B99EF57006EF461 /* crypto_stream_aes128ctr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream_aes128ctr.h; sourceTree = "<group>"; };
+		7BC7F44B1B99EF57006EF461 /* crypto_stream_chacha20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream_chacha20.h; sourceTree = "<group>"; };
+		7BC7F44C1B99EF57006EF461 /* crypto_stream_salsa20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream_salsa20.h; sourceTree = "<group>"; };
+		7BC7F44D1B99EF57006EF461 /* crypto_stream_salsa2012.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream_salsa2012.h; sourceTree = "<group>"; };
+		7BC7F44E1B99EF57006EF461 /* crypto_stream_salsa208.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream_salsa208.h; sourceTree = "<group>"; };
+		7BC7F44F1B99EF57006EF461 /* crypto_stream_xsalsa20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_stream_xsalsa20.h; sourceTree = "<group>"; };
+		7BC7F4501B99EF57006EF461 /* crypto_uint16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_uint16.h; sourceTree = "<group>"; };
+		7BC7F4511B99EF57006EF461 /* crypto_uint32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_uint32.h; sourceTree = "<group>"; };
+		7BC7F4521B99EF57006EF461 /* crypto_uint64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_uint64.h; sourceTree = "<group>"; };
+		7BC7F4531B99EF57006EF461 /* crypto_uint8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_uint8.h; sourceTree = "<group>"; };
+		7BC7F4541B99EF57006EF461 /* crypto_verify_16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_verify_16.h; sourceTree = "<group>"; };
+		7BC7F4551B99EF57006EF461 /* crypto_verify_32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_verify_32.h; sourceTree = "<group>"; };
+		7BC7F4561B99EF57006EF461 /* crypto_verify_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_verify_64.h; sourceTree = "<group>"; };
+		7BC7F4571B99EF57006EF461 /* export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
+		7BC7F4581B99EF57006EF461 /* randombytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randombytes.h; sourceTree = "<group>"; };
+		7BC7F4591B99EF57006EF461 /* randombytes_salsa20_random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randombytes_salsa20_random.h; sourceTree = "<group>"; };
+		7BC7F45A1B99EF57006EF461 /* randombytes_sysrandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randombytes_sysrandom.h; sourceTree = "<group>"; };
+		7BC7F45B1B99EF57006EF461 /* runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runtime.h; sourceTree = "<group>"; };
+		7BC7F45C1B99EF57006EF461 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		7BC7F45D1B99EF57006EF461 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		7BC7F45E1B99EF57006EF461 /* version.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.h.in; sourceTree = "<group>"; };
+		7BC7F45F1B99EF57006EF461 /* sodium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sodium.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC7F4091B99EF15006EF461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BC7F4031B99EF15006EF461 = {
+			isa = PBXGroup;
+			children = (
+				7BC7F40E1B99EF15006EF461 /* gopher_encrypt */,
+				7BC7F40D1B99EF15006EF461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC7F40D1B99EF15006EF461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7F40C1B99EF15006EF461 /* gopher_encrypt */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC7F40E1B99EF15006EF461 /* gopher_encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7F40F1B99EF15006EF461 /* main.m */,
+				7BC7F4291B99EF57006EF461 /* sodium */,
+				7BC7F45F1B99EF57006EF461 /* sodium.h */,
+			);
+			path = gopher_encrypt;
+			sourceTree = "<group>";
+		};
+		7BC7F4291B99EF57006EF461 /* sodium */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7F42A1B99EF57006EF461 /* core.h */,
+				7BC7F42B1B99EF57006EF461 /* crypto_aead_chacha20poly1305.h */,
+				7BC7F42C1B99EF57006EF461 /* crypto_auth.h */,
+				7BC7F42D1B99EF57006EF461 /* crypto_auth_hmacsha256.h */,
+				7BC7F42E1B99EF57006EF461 /* crypto_auth_hmacsha512.h */,
+				7BC7F42F1B99EF57006EF461 /* crypto_auth_hmacsha512256.h */,
+				7BC7F4301B99EF57006EF461 /* crypto_box.h */,
+				7BC7F4311B99EF57006EF461 /* crypto_box_curve25519xsalsa20poly1305.h */,
+				7BC7F4321B99EF57006EF461 /* crypto_core_hsalsa20.h */,
+				7BC7F4331B99EF57006EF461 /* crypto_core_salsa20.h */,
+				7BC7F4341B99EF57006EF461 /* crypto_core_salsa2012.h */,
+				7BC7F4351B99EF57006EF461 /* crypto_core_salsa208.h */,
+				7BC7F4361B99EF57006EF461 /* crypto_generichash.h */,
+				7BC7F4371B99EF57006EF461 /* crypto_generichash_blake2b.h */,
+				7BC7F4381B99EF57006EF461 /* crypto_hash.h */,
+				7BC7F4391B99EF57006EF461 /* crypto_hash_sha256.h */,
+				7BC7F43A1B99EF57006EF461 /* crypto_hash_sha512.h */,
+				7BC7F43B1B99EF57006EF461 /* crypto_int32.h */,
+				7BC7F43C1B99EF57006EF461 /* crypto_int64.h */,
+				7BC7F43D1B99EF57006EF461 /* crypto_onetimeauth.h */,
+				7BC7F43E1B99EF57006EF461 /* crypto_onetimeauth_poly1305.h */,
+				7BC7F43F1B99EF57006EF461 /* crypto_pwhash_scryptsalsa208sha256.h */,
+				7BC7F4401B99EF57006EF461 /* crypto_scalarmult.h */,
+				7BC7F4411B99EF57006EF461 /* crypto_scalarmult_curve25519.h */,
+				7BC7F4421B99EF57006EF461 /* crypto_secretbox.h */,
+				7BC7F4431B99EF57006EF461 /* crypto_secretbox_xsalsa20poly1305.h */,
+				7BC7F4441B99EF57006EF461 /* crypto_shorthash.h */,
+				7BC7F4451B99EF57006EF461 /* crypto_shorthash_siphash24.h */,
+				7BC7F4461B99EF57006EF461 /* crypto_sign.h */,
+				7BC7F4471B99EF57006EF461 /* crypto_sign_ed25519.h */,
+				7BC7F4481B99EF57006EF461 /* crypto_sign_edwards25519sha512batch.h */,
+				7BC7F4491B99EF57006EF461 /* crypto_stream.h */,
+				7BC7F44A1B99EF57006EF461 /* crypto_stream_aes128ctr.h */,
+				7BC7F44B1B99EF57006EF461 /* crypto_stream_chacha20.h */,
+				7BC7F44C1B99EF57006EF461 /* crypto_stream_salsa20.h */,
+				7BC7F44D1B99EF57006EF461 /* crypto_stream_salsa2012.h */,
+				7BC7F44E1B99EF57006EF461 /* crypto_stream_salsa208.h */,
+				7BC7F44F1B99EF57006EF461 /* crypto_stream_xsalsa20.h */,
+				7BC7F4501B99EF57006EF461 /* crypto_uint16.h */,
+				7BC7F4511B99EF57006EF461 /* crypto_uint32.h */,
+				7BC7F4521B99EF57006EF461 /* crypto_uint64.h */,
+				7BC7F4531B99EF57006EF461 /* crypto_uint8.h */,
+				7BC7F4541B99EF57006EF461 /* crypto_verify_16.h */,
+				7BC7F4551B99EF57006EF461 /* crypto_verify_32.h */,
+				7BC7F4561B99EF57006EF461 /* crypto_verify_64.h */,
+				7BC7F4571B99EF57006EF461 /* export.h */,
+				7BC7F4581B99EF57006EF461 /* randombytes.h */,
+				7BC7F4591B99EF57006EF461 /* randombytes_salsa20_random.h */,
+				7BC7F45A1B99EF57006EF461 /* randombytes_sysrandom.h */,
+				7BC7F45B1B99EF57006EF461 /* runtime.h */,
+				7BC7F45C1B99EF57006EF461 /* utils.h */,
+				7BC7F45D1B99EF57006EF461 /* version.h */,
+				7BC7F45E1B99EF57006EF461 /* version.h.in */,
+			);
+			path = sodium;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC7F40B1B99EF15006EF461 /* gopher_encrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC7F4131B99EF15006EF461 /* Build configuration list for PBXNativeTarget "gopher_encrypt" */;
+			buildPhases = (
+				7BC7F4081B99EF15006EF461 /* Sources */,
+				7BC7F4091B99EF15006EF461 /* Frameworks */,
+				7BC7F40A1B99EF15006EF461 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gopher_encrypt;
+			productName = gopher_encrypt;
+			productReference = 7BC7F40C1B99EF15006EF461 /* gopher_encrypt */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC7F4041B99EF15006EF461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Put.as;
+				TargetAttributes = {
+					7BC7F40B1B99EF15006EF461 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 7BC7F4071B99EF15006EF461 /* Build configuration list for PBXProject "gopher_encrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BC7F4031B99EF15006EF461;
+			productRefGroup = 7BC7F40D1B99EF15006EF461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC7F40B1B99EF15006EF461 /* gopher_encrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC7F4081B99EF15006EF461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC7F4101B99EF15006EF461 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BC7F4111B99EF15006EF461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BC7F4121B99EF15006EF461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7BC7F4141B99EF15006EF461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BC7F4151B99EF15006EF461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC7F4071B99EF15006EF461 /* Build configuration list for PBXProject "gopher_encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC7F4111B99EF15006EF461 /* Debug */,
+				7BC7F4121B99EF15006EF461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC7F4131B99EF15006EF461 /* Build configuration list for PBXNativeTarget "gopher_encrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC7F4141B99EF15006EF461 /* Debug */,
+				7BC7F4151B99EF15006EF461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BC7F4041B99EF15006EF461 /* Project object */;
+}
