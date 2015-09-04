@@ -18,6 +18,8 @@ You will need to compile yourself and add to the project libsodium static librar
 
 Code provided as it is, it used to work last time I tested it ;-)
 
+Its goal is to demonstrate that there are really no special barriers in OS X against crypto ransomware. This menace hasn't arrived to OS X purely because of laziness from malware authors and scale, since it should be magnitudes more profitable against Windows targets. It doesn't contain really any OS X specifics other than Foundation methods to easily iterate over files. Adding spotlight search would make it easier and faster to locate documents and others to encrypt.
+
 Enjoy,
 
 fG!
