@@ -1,6 +1,6 @@
 Gopher
 
-A PoC OS X ransomware PoC
+A PoC OS X ransomware
 
 (c) fG! 2015. All rights reserved
 
